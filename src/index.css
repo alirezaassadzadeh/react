@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    @font-face {
+        font-family: iranSans;
+        src: url("/src/assets/fonts/IRANSansWeb.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: iranSansBold;
+        src: url("/src/assets/fonts/IRANSansWeb_Bold.ttf") format("truetype") ; 
+    }
+    @font-face {
+        font-family: nastaliq;
+        src: url("/src/assets/fonts/NotoNastaliqUrdu-VariableFont_wght.ttf") format("truetype") ; 
+    }
+}
